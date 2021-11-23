@@ -139,10 +139,11 @@ ul {
 .foot {
   background-color: var(--background-footer-color);
   margin-top: 0px;
+  height: 252px;
 }
 .foot .container {
   padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 /* логотип в подвале */
 
@@ -153,7 +154,7 @@ ul {
   display: inline-block;
 }
 /* адрес в подвале сайта */
-.adresslist {
+.adress-list {
   margin-top: 20px;
 
   font-style: normal;
@@ -163,13 +164,13 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.adresslist .link {
+.adress-list .link {
   display: inline-block;
   margin-bottom: 9px;
   color: #757575;
 }
-.adresslist .link:hover,
-.adresslist .link:focus {
+.adress-list .link:hover,
+.adress-list .link:focus {
   color: var(--hover-link-footer);
 }
 
@@ -199,6 +200,7 @@ ul {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   font-weight: bold;
   font-style: normal;
   font-size: 16px;
@@ -269,6 +271,7 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  height: 368px;
 }
 .teem .title {
   /* padding-top: 94px; */
@@ -287,6 +290,7 @@ ul {
 }
 .teem .text {
   margin-top: 10px;
+  margin-bottom: 0;
   padding-bottom: 30px;
   font-weight: normal;
   font-size: 16px;
@@ -342,6 +346,7 @@ ul {
   margin-top: -30px;
 }
 .progect .items {
+  height: 404px;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
