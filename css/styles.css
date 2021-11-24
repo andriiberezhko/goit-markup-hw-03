@@ -20,7 +20,6 @@ body {
   background: var(--background-color-main);
   color: var(--text-heder-color);
   font-family: Roboto, sans-serif;
-  /* width: 1600px; */
 }
 h1,
 h2,
@@ -44,8 +43,6 @@ ul {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* background-color: rgb(201, 221, 221);
-  outline: 1px solid black; */
 }
 /* section */
 .section {
@@ -142,7 +139,6 @@ ul {
 .foot {
   background-color: var(--background-footer-color);
   margin-top: 0px;
-  /* height: 252px; */
 }
 .foot .container {
   padding-top: 60px;
@@ -179,10 +175,6 @@ ul {
 .adress-list .adress {
   color: #ffffff;
 }
-/* .adress-list .link:hover,
-.adress-list .link:focus {
-  color: var(--hover-link-footer);
-} */
 
 /* Главный контент */
 /* секция герой */
@@ -282,10 +274,8 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  /* height: 368px; */
 }
 .teem .title {
-  /* padding-top: 94px; */
   margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
@@ -357,7 +347,6 @@ ul {
   margin-top: -30px;
 }
 .progect .items {
-  /* height: 404px; */
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
@@ -368,7 +357,6 @@ ul {
 }
 
 .progect .title {
-  /* margin-top: 20px; */
   color: var(--text-heder-color);
   font-style: normal;
   font-weight: bold;
