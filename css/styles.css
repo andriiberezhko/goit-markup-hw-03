@@ -142,11 +142,11 @@ ul {
 .foot {
   background-color: var(--background-footer-color);
   margin-top: 0px;
-  height: 252px;
+  /* height: 252px; */
 }
 .foot .container {
   padding-top: 60px;
-  /* padding-bottom: 60px; */
+  padding-bottom: 60px;
 }
 
 /* логотип в подвале */
@@ -169,7 +169,7 @@ ul {
 }
 
 .adress-list .link {
-  display: inline-block;
+  display: block;
   margin-top: 9px;
   color: #757575;
 }
@@ -353,7 +353,7 @@ ul {
   margin-top: -30px;
 }
 .progect .items {
-  height: 404px;
+  /* height: 404px; */
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
