@@ -9,7 +9,7 @@
 :root {
   --text-heder-color: #212121;
   --background-color-main: #ffffff;
-  --hover-link-footer: #ffffff;
+  /* --hover-link-footer: #ffffff; */
   --hover-link-nav: #2196f3;
   --hover-button-color: #2196f3;
   --text-color: #757575;
@@ -52,7 +52,10 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+/* foto */
+.foot {
+  display: block;
+}
 /* Логотип */
 .logo {
   font-family: Raleway, sans-serif;
@@ -145,6 +148,7 @@ ul {
   padding-top: 60px;
   /* padding-bottom: 60px; */
 }
+
 /* логотип в подвале */
 
 .foot .link {
@@ -166,13 +170,16 @@ ul {
 
 .adress-list .link {
   display: inline-block;
-  margin-bottom: 9px;
+  margin-top: 9px;
   color: #757575;
 }
-.adress-list .link:hover,
+.adress-list .adress {
+  color: #ffffff;
+}
+/* .adress-list .link:hover,
 .adress-list .link:focus {
   color: var(--hover-link-footer);
-}
+} */
 
 /* Главный контент */
 /* секция герой */
