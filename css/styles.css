@@ -167,10 +167,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
+.adress-list .item {
+  margin-top: 9px;
+}
 
 .adress-list .link {
   display: block;
-  margin-top: 9px;
+
   color: #757575;
 }
 .adress-list .adress {
@@ -214,6 +217,7 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* Секция наши качества */
